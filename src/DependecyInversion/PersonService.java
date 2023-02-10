@@ -8,7 +8,7 @@ public class PersonService {
     public PersonService(DataBase dataBase){ this.dataBase= dataBase;}
 
     public void savePerson(String nombre, String apellido){
-        dataBase.savePerson("Enrique", "Prueba");
+        dataBase.savePerson(nombre,apellido);
 
 
     }
